@@ -1,6 +1,5 @@
--- sqlite_schema.sql - analytics schema
-CREATE TABLE IF NOT EXISTS user_stats (
-  user_id TEXT PRIMARY KEY,
-  last_active TIMESTAMP,
-  message_count INTEGER
+CREATE TABLE IF NOT EXISTS interactions (
+    user_id TEXT,
+    campaign_id TEXT,
+    count INT
 );
