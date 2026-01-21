@@ -1,5 +1,8 @@
 {
-  "collection_name": "conversations_embeddings",
-  "dimension": 768,
-  "metric_type": "COSINE"
+  "collection_name": "conversation_embeddings",
+  "fields": [
+    {"name": "user_id", "type": "VARCHAR", "max_length": 20},
+    {"name": "message_id", "type": "VARCHAR", "max_length": 20},
+    {"name": "embedding", "type": "FLOAT_VECTOR", "dim": 384}
+  ]
 }
