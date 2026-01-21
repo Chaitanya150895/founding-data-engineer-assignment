@@ -1,0 +1,9 @@
+sentence-transformers
+fastapi
+uvicorn
+pymongo
+redis
+pymilvus
+neo4j
+sqlite3
+prefect   # or airflow, depending on orchestration choice
