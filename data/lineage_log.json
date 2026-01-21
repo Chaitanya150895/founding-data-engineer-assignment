@@ -1,0 +1,9 @@
+[
+  {
+    "file": "data/sample_conversations.json",
+    "hash": "abc123...",
+    "timestamp": "2026-01-21T12:34:56Z",
+    "records_valid": 20,
+    "records_total": 20
+  }
+]
