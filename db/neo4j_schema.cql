@@ -1,3 +1,5 @@
-/* neo4j_schema.cql - example graph constraints */
-CREATE CONSTRAINT conversation_id_unique IF NOT EXISTS
-FOR (c:Conversation) REQUIRE c.id IS UNIQUE;
+CREATE CONSTRAINT ON (u:User) ASSERT u.id IS UNIQUE;
+CREATE CONSTRAINT ON (c:Campaign) ASSERT c.id IS UNIQUE;
+
+MATCH (u:User {id:'u1'}), (c:Campaign {id:'c1'})
+MERGE (u)-[:ENGAGED]->(c);
