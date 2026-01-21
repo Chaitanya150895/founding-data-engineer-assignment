@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  mongo:
+    image: mongo:6
+    ports:
+      - "27017:27017"
+  milvus:
+    image: milvusdb/milvus:v2.2.8
+    ports:
+      - "19530:19530"
+  neo4j:
+    image: neo4j:5
+    environment:
+      - NEO4J_AUTH=neo4j/test
+    ports:
+      - "7474:7474"
+      - "7687:7687"

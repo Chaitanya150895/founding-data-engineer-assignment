@@ -1,0 +1,9 @@
+[
+  {
+    "user_id": "user_1",
+    "messages": [
+      {"sender": "user", "text": "Hello", "ts": "2025-01-01T12:00:00Z"},
+      {"sender": "bot", "text": "Hi there!", "ts": "2025-01-01T12:00:01Z"}
+    ]
+  }
+]

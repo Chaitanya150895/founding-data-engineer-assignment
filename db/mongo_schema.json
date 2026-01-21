@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Conversation",
+  "type": "object",
+  "properties": {
+    "user_id": { "type": "string" },
+    "messages": {
+      "type": "array",
+      "items": { "type": "object" }
+    }
+  },
+  "required": ["user_id", "messages"]
+}
