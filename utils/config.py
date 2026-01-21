@@ -1,7 +1,7 @@
-"""
-config.py - DB connection configs (placeholders)
-"""
-MONGO_URI = "mongodb://localhost:27017"
+MONGO_URI = "mongodb://localhost:27017/"
 MILVUS_HOST = "localhost"
+MILVUS_PORT = "19530"
 NEO4J_URI = "bolt://localhost:7687"
-SQLITE_PATH = "analytics.db"
+NEO4J_USER = "neo4j"
+NEO4J_PASSWORD = "test"
+SQLITE_DB = "db/analytics.db"
